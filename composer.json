@@ -1,0 +1,23 @@
+{
+	"name": "meu/miniframework",
+	"require": {
+		"php": ">= 7.0"
+	},
+	"authors":[
+		{
+			"name": "Youssef Called",
+			"email": "dev.youssefc@gmail.com"
+		}
+	],
+
+	"autoload": {
+
+		"psr-4":{
+			"App\\":"App/",
+			"MF\\":"vendor/MF/"
+		}
+	}
+
+
+
+}
